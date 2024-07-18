@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=Um.0">
+        <title>display: flex</title>
+        <link rel="stylesheet" href="stylesheet/display flex.css">
+    </head>
+    <body>
+        <main class="container">
+            <!--display: flex;-->
+            <h1>&lt;!-- flex-container --&gt;</h1>
+            <h1>display: block; (padrão)</h1>
+            <div class="content">
+                <div class="item">Item Um</div>
+                <div class="item">Item Dois</div>
+                <div class="item">Item Três</div>
+                <div class="item">Item Quatro</div>
+                <div class="item">Item Cinco</div>
+                <div class="item">Item Seis</div>
+            </div>
+            <h1>display: flex;</h1>
+            <div class="content flex">
+                <div class="item">Item Um</div>
+                <div class="item">Item Dois</div>
+                <div class="item">Item Três</div>
+                <div class="item">Item Quatro</div>
+                <div class="item">Item Cinco</div>
+                <div class="item">Item Seis</div>
+            </div>
+            <!--display: flex;-->
+            <!--flex-direction-->
+            <h1>flex-direction: row; (padrão)</h1>
+            <div class="content flex direct-row">
+                <div class="item">Item Um</div>
+                <div class="item">Item Dois</div>
+                <div class="item">Item Três</div>
+                <div class="item">Item Quatro</div>
+                <div class="item">Item Cinco</div>
+                <div class="item">Item Seis</div>
+            </div>
+            <h1>flex-direction: row-reverse;</h1>
+            <div class="content flex direct-row-reverse">
+                <div class="item">Item Um</div>
+                <div class="item">Item Dois</div>
+                <div class="item">Item Três</div>
+                <div class="item">Item Quatro</div>
+                <div class="item">Item Cinco</div>
+                <div class="item">Item Seis</div>
+            </div>
+            <h1>flex-direction: column;</h1>
+            <div class="content flex direct-column">
+                <div class="item">Item Um</div>
+                <div class="item">Item Dois</div>
+                <div class="item">Item Três</div>
+                <div class="item">Item Quatro</div>
+                <div class="item">Item Cinco</div>
+                <div class="item">Item Seis</div>
+            </div>
+            <h1>flex-direction: column-reverse;</h1>
+            <div class="content flex direct-column-reverse">
+                <div class="item">Item Um</div>
+                <div class="item">Item Dois</div>
+                <div class="item">Item Três</div>
+                <div class="item">Item Quatro</div>
+                <div class="item">Item Cinco</div>
+                <div class="item">Item Seis</div>
+            </div>
+            <!--flex-direction-->
+            <!--flex-wrap-->
+            <h1>flex-wrap: nowrap; (padrão)</h1>
+            <div class="content flex nowrap">
+                <div class="item">ItemUmaqui</div>
+                <div class="item">ItemDoisaqui</div>
+                <div class="item">ItemTrêsaqui</div>
+                <div class="item">ItemQuatroaqui</div>
+                <div class="item">ItemCincoaqui</div>
+                <div class="item">ItemSeisaqui</div>
+                <div class="item">ItemOitoaqui</div>
+                <div class="item">ItemNoveaqui</div>
+            </div>
+            <h1>flex-wrap: wrap;</h1>
+            <div class="content flex wrap">
+                <div class="item">ItemUmaqui</div>
+                <div class="item">ItemDoisaqui</div>
+                <div class="item">ItemTrêsaqui</div>
+                <div class="item">ItemQuatroaqui</div>
+                <div class="item">ItemCincoaqui</div>
+                <div class="item">ItemSeisaqui</div>
+                <div class="item">ItemOitoaqui</div>
+                <div class="item">ItemNoveaqui</div>
+            </div>
+            <h1>flex-wrap: wrap-reverse;</h1>
+            <div class="content flex wrap-reverse">
+                <div class="item">ItemUmaqui</div>
+                <div class="item">ItemDoisaqui</div>
+                <div class="item">ItemTrêsaqui</div>
+                <div class="item">ItemQuatroaqui</div>
+                <div class="item">ItemCincoaqui</div>
+                <div class="item">ItemSeisaqui</div>
+                <div class="item">ItemOitoaqui</div>
+                <div class="item">ItemNoveaqui</div>
+            </div>
+            <!--flex-wrap-->
+            <!--flex-flow-->
+            <h1>flex-flow: row nowrap;</h1>
+            <div class="content flex row-nowrap">
+                <div class="item">ItemUmaqui</div>
+                <div class="item">ItemDoisaqui</div>
+                <div class="item">ItemTrêsaqui</div>
+                <div class="item">ItemQuatroaqui</div>
+                <div class="item">ItemCincoaqui</div>
+                <div class="item">ItemSeisaqui</div>
+                <div class="item">ItemOitoaqui</div>
+                <div class="item">ItemNoveaqui</div>
+            </div>
+            <h1>flex-flow: column wrap;</h1>
+            <div class="content flex column-wrap">
+                <div class="item">ItemUmaqui</div>
+                <div class="item">ItemDoisaqui</div>
+                <div class="item">ItemTrêsaqui</div>
+                <div class="item">ItemQuatroaqui</div>
+                <div class="item">ItemCincoaqui</div>
+                <div class="item">ItemSeisaqui</div>
+                <div class="item">ItemOitoaqui</div>
+                <div class="item">ItemNoveaqui</div>
+            </div>
+            <!--flex-flow-->
+            <!--justify-content-->
+            <h1>justify-content: flex-start;</h1>
+            <div class="content flex just-flex-start">
+                <div class="item">Um</div>
+                <div class="item">ItemDoisaqui</div>
+                <div class="item">Três</div>
+                <div class="item">Quatro</div>
+            </div>
+            <h1>justify-content: flex-end;</h1>
+            <div class="content flex just-flex-end">
+                <div class="item">Um</div>
+                <div class="item">ItemDoisaqui</div>
+                <div class="item">Três</div>
+                <div class="item">Quatro</div>
+            </div>
+            <h1>justify-content: space-between;</h1>
+            <div class="content flex just-space-between">
+                <div class="item">Um</div>
+                <div class="item">ItemDoisaqui</div>
+                <div class="item">Três</div>
+                <div class="item">Quatro</div>
+            </div>
+            <h1>justify-content: space-arround;</h1>
+            <div class="content flex just-space-arround">
+                <div class="item">Um</div>
+                <div class="item">ItemDoisaqui</div>
+                <div class="item">Três</div>
+                <div class="item">Quatro</div>
+            </div>
+            <h1>justify-content: flex-start; flex-direction: column;</h1>
+            <div class="content plus-size direct-column flex just-flex-start">
+                <div class="item">Um</div>
+                <div class="item">ItemDoisaqui</div>
+                <div class="item">Três</div>
+                <div class="item">Quatro</div>
+            </div>
+            <h1>justify-content: flex-end; flex-direction: column;</h1>
+            <div class="content plus-size direct-column flex just-flex-end">
+                <div class="item">Um</div>
+                <div class="item">ItemDoisaqui</div>
+                <div class="item">Três</div>
+                <div class="item">Quatro</div>
+            </div>
+            <h1>justify-content: space-between; flex-direction: column;</h1>
+            <div class="content plus-size direct-column flex just-space-between">
+                <div class="item">Um</div>
+                <div class="item">ItemDoisaqui</div>
+                <div class="item">Três</div>
+                <div class="item">Quatro</div>
+            </div>
+            <h1>justify-content: space-arround; flex-direction: column;</h1>
+            <div class="content plus-size direct-column flex just-space-arround">
+                <div class="item">Um</div>
+                <div class="item">ItemDoisaqui</div>
+                <div class="item">Três</div>
+                <div class="item">Quatro</div>
+            </div>
+            <!--justify-content-->
+            <!--align-items-->
+            <h1>align-items: center;</h1>
+            <div class="content flex plus-size align-center">
+                <div class="item">Um</div>
+                <div class="item">ItemDoisaqui</div>
+                <div class="item">Três</div>
+                <div class="item">Quatro</div>
+            </div>
+            <h1>align-items: flex-start;</h1>
+            <div class="content flex plus-size align-start">
+                <div class="item">Um</div>
+                <div class="item">ItemDoisaqui</div>
+                <div class="item">Três</div>
+                <div class="item">Quatro</div>
+            </div>
+            <h1>align-items: flex-end;</h1>
+            <div class="content flex plus-size align-end">
+                <div class="item">Um</div>
+                <div class="item">ItemDoisaqui</div>
+                <div class="item">Três</div>
+                <div class="item">Quatro</div>
+            </div>
+            <h1>align-items: stretch;</h1>
+            <div class="content flex plus-size align-stretch">
+                <div class="item">Um</div>
+                <div class="item">ItemDoisaqui</div>
+                <div class="item">Três</div>
+                <div class="item">Quatro</div>
+            </div>
+            <h1>align-items: baseline;</h1>
+            <div class="content flex plus-size baseline">
+                <div class="item padd-plus">Um</div>
+                <div class="item">ItemDoisaqui</div>
+                <div class="item padd-plus-2">Três</div>
+                <div class="item">Quatro</div>
+            </div>
+            <!--align-items-->
+            <!--align-content-->
+            <h1>align-content: stretch; (padrão)</h1>
+            <div class="content wrap flex plus-size content-stretch">
+                <div class="item">Um</div>
+                <div class="item">ItemDoisaqui</div>
+                <div class="item">Três</div>
+                <div class="item">Quatro</div>
+                <div class="item">Cincoaqui</div>
+                <div class="item">O Seis estáaqui</div>
+                <div class="item">ItemOito PresenteAqui</div>
+                <div class="item">Olá, sou o item Nove</div>
+            </div>
+            <h1>align-content: flex-start;</h1>
+            <div class="content wrap flex plus-size content-start">
+                <div class="item">Um</div>
+                <div class="item">ItemDoisaqui</div>
+                <div class="item">Três</div>
+                <div class="item">Quatro</div>
+                <div class="item">Cincoaqui</div>
+                <div class="item">O Seis estáaqui</div>
+                <div class="item">ItemOito PresenteAqui</div>
+                <div class="item">Olá, sou o item Nove</div>
+            </div>
+            <h1>align-content: flex-end;</h1>
+            <div class="content wrap flex plus-size content-end">
+                <div class="item">Um</div>
+                <div class="item">ItemDoisaqui</div>
+                <div class="item">Três</div>
+                <div class="item">Quatro</div>
+                <div class="item">Cincoaqui</div>
+                <div class="item">O Seis estáaqui</div>
+                <div class="item">ItemOito PresenteAqui</div>
+                <div class="item">Olá, sou o item Nove</div>
+            </div>
+            <h1>align-content: space-between;</h1>
+            <div class="content wrap flex plus-size content-between">
+                <div class="item">Um</div>
+                <div class="item">ItemDoisaqui</div>
+                <div class="item">Três</div>
+                <div class="item">Quatro</div>
+                <div class="item">Cincoaqui</div>
+                <div class="item">O Seis estáaqui</div>
+                <div class="item">ItemOito PresenteAqui</div>
+                <div class="item">Olá, sou o item Nove</div>
+            </div>
+            <h1>align-content: space-around;</h1>
+            <div class="content wrap flex plus-size content-around">
+                <div class="item">Um</div>
+                <div class="item">ItemDoisaqui</div>
+                <div class="item">Três</div>
+                <div class="item">Quatro</div>
+                <div class="item">Cincoaqui</div>
+                <div class="item">O Seis estáaqui</div>
+                <div class="item">ItemOito PresenteAqui</div>
+                <div class="item">Olá, sou o item Nove</div>
+            </div>
+            <!--align-content-->
+            <h1>&lt;!-- flex-item --&gt;</h1>
+            <!--flex-grow-->
+            <h1>flex-grow: 0; (padrão)</h1>
+            <div class="content flex">
+                <div class="item grow-0">0</div>
+                <div class="item grow-0">2</div>
+                <div class="item grow-0">3</div>
+                <div class="item grow-0">4</div>
+                <div class="item grow-0">5</div>
+                <div class="item grow-0">6</div>
+                <div class="item grow-0">7</div>
+                <div class="item grow-0">8</div>
+            </div>
+            <h1>flex-grow: 1;</h1>
+            <div class="content flex">
+                <div class="item grow-1">1</div>
+                <div class="item grow-1">2</div>
+                <div class="item grow-1">3</div>
+                <div class="item grow-1">4</div>
+                <div class="item grow-1">5</div>
+                <div class="item grow-1">6</div>
+                <div class="item grow-1">7</div>
+                <div class="item grow-1">8</div>
+            </div>
+            <h1>flex-grow: misturado;</h1>
+            <div class="content flex">
+                <div class="item grow-1">1</div>
+                <div class="item grow-1">2</div>
+                <div class="item grow-2">3</div>
+                <div class="item grow-1">4</div>
+                <div class="item grow-1">5</div>
+                <div class="item grow-3">6</div>
+                <div class="item grow-1">7</div>
+                <div class="item grow-1">8</div>
+            </div>
+            <!--flex-grow-->
+            <!--flex-basis-->
+            <h1>flex-basis: auto; (padrão)</h1>
+            <div class="content flex">
+                <div class="item basis-auto">1</div>
+                <div class="item basis-auto">2</div>
+                <div class="item basis-auto">3</div>
+                <div class="item basis-auto">4</div>
+                <div class="item basis-auto">5</div>
+                <div class="item basis-auto">6</div>
+                <div class="item basis-auto">7</div>
+                <div class="item basis-auto">8</div>
+            </div>
+            <h1>flex-basis: 200px; flex-grow: 1; (item 4)</h1>
+            <div class="content flex">
+                <div class="item grow-1">1</div>
+                <div class="item grow-1">2</div>
+                <div class="item grow-1">3</div>
+                <div class="item grow-1 basis-200">4</div>
+                <div class="item grow-1">5</div>
+                <div class="item grow-1">6</div>
+                <div class="item grow-1">7</div>
+                <div class="item grow-1">8</div>
+            </div>
+            <h1>flex-basis: 0; flex-grow: 1;</h1>
+            <div class="content flex">
+                <div class="item basis-0 grow-1">Item1</div>
+                <div class="item basis-0 grow-1">2ItemAqui</div>
+                <div class="item basis-0 grow-1">Esse é 3</div>
+                <div class="item basis-0 grow-1">Quatro</div>
+                <div class="item basis-0 grow-1">ItemCincoAqui</div>
+                <div class="item basis-0 grow-1">esse Seis</div>
+                <div class="item basis-0 grow-1">Item 7</div>
+                <div class="item basis-0 grow-1">Esse é o Oito</div>
+            </div>
+            <!--flex-basis-->
+            <!--flex-shrink-->
+            <h1>flex-shrink: 1; flex-grow: 1; (valor padrão)</h1>
+            <div class="content flex">
+                <div class="item shrink-1 grow-1">Item1</div>
+                <div class="item shrink-1 grow-1">2ItemAqui</div>
+                <div class="item shrink-1 grow-1">Esse é 3</div>
+                <div class="item shrink-1 grow-1">Quatro</div>
+                <div class="item shrink-1 grow-1">ItemCincoAqui</div>
+                <div class="item shrink-1 grow-1">esse Seis</div>
+                <div class="item shrink-1 grow-1">Item 7</div>
+                <div class="item shrink-1 grow-1">Esse é o Oito</div>
+            </div>
+            <h1>flex-shrink: 0; flex-grow: 1;</h1>
+            <div class="content flex">
+                <div class="item shrink-0 grow-1">Item1</div>
+                <div class="item shrink-0 grow-1">2ItemAqui</div>
+                <div class="item shrink-0 grow-1">Esse é 3</div>
+                <div class="item shrink-0 grow-1">Quatro</div>
+                <div class="item shrink-0 grow-1">ItemCincoAqui</div>
+                <div class="item shrink-0 grow-1">esse Seis</div>
+                <div class="item shrink-0 grow-1">Item 7</div>
+                <div class="item shrink-0 grow-1">Esse é o Oito</div>
+            </div>
+            <!--flex-shrink-->
+            <!--flex-->
+            <h1>flex: 1 1 0;</h1>
+            <p>Atalho para as propriedades flex-grow, flex-shrink e flex-basis. Geralmente você verá a propriedade flex nos flex itens ao invés de cada um dos valores separados.</p>
+            <div class="content flex">
+                <div class="item shrink-0 flex-1">Item1</div>
+                <div class="item shrink-0 flex-1">2ItemAqui</div>
+                <div class="item shrink-0 flex-1">Esse é 3</div>
+                <div class="item shrink-0 flex-1">Quatro</div>
+                <div class="item shrink-0 flex-1">ItemCincoAqui</div>
+                <div class="item shrink-0 flex-1">esse Seis</div>
+                <div class="item shrink-0 flex-1">Item 7</div>
+                <div class="item shrink-0 flex-1">Esse é o Oito</div>
+            </div>
+            <!--flex-->
+            <!--order-->
+            <h1>order: number;</h1>
+            <div class="content flex">
+                <div class="item shrink-0 order-3">Item1</div>
+                <div class="item shrink-0 order-5">2ItemAqui</div>
+                <div class="item shrink-0 order-3">Esse é 3</div>
+                <div class="item shrink-0 order-1">Quatro</div>
+                <div class="item shrink-0 order-8">ItemCincoAqui</div>
+                <div class="item shrink-0 order-6">esse Seis</div>
+                <div class="item shrink-0 order-4">Item 7</div>
+                <div class="item shrink-0 order-2">Esse é o Oito</div>
+            </div>
+            <!--order-->
+            <!--align-self-->
+            <h1>align-self: auto; (padrão)</h1>
+            <div class="content flex plus-size align-start">
+                <div class="item align-selft-auto">Item1</div>
+                <div class="item align-selft-auto">2ItemAqui</div>
+                <div class="item align-selft-auto">Esse é 3</div>
+                <div class="item align-selft-auto">Quatro</div>
+                <div class="item align-selft-auto">ItemCincoAqui</div>
+                <div class="item align-selft-auto">esse Seis</div>
+                <div class="item align-selft-auto">Item 7</div>
+                <div class="item align-selft-auto">Esse é o Oito</div>
+            </div>
+            <h1>align-self: flex-start; (item quatro)</h1>
+            <div class="content flex plus-size align-start">
+                <div class="item">Item Um</div>
+                <div class="item">Item Dois</div>
+                <div class="item">Item Três</div>
+                <div class="item align-self-start">Item Quatro</div>
+                <div class="item">Item Cinco</div>
+                <div class="item">Item Seis</div>
+                <div class="item">Item Sete</div>
+            </div>
+            <h1>align-self: flex-end; (item cinco)</h1>
+            <div class="content flex plus-size align-start">
+                <div class="item">Item Um</div>
+                <div class="item">Item Dois</div>
+                <div class="item">Item Três</div>
+                <div class="item">Item Quatro</div>
+                <div class="item align-self-end">Item Cinco</div>
+                <div class="item">Item Seis</div>
+                <div class="item">Item Sete</div>
+            </div>
+            <h1>align-self: center; (item dois)</h1>
+            <div class="content flex plus-size align-start">
+                <div class="item">Item Um</div>
+                <div class="item align-self-center">Item Dois</div>
+                <div class="item">Item Três</div>
+                <div class="item">Item Quatro</div>
+                <div class="item">Item Cinco</div>
+                <div class="item">Item Seis</div>
+                <div class="item">Item Sete</div>
+            </div>
+            <h1>align-self: baseline; (item quatro)</h1>
+            <div class="content flex plus-size align-start">
+                <div class="item">Item Um</div>
+                <div class="item padd">Item Dois</div>
+                <div class="item">Item Três</div>
+                <div class="item align-self-baseline">Item Quatro</div>
+                <div class="item">Item Cinco</div>
+                <div class="item padd-plus">Item Seis</div>
+                <div class="item">Item Sete</div>
+            </div>
+            <!--align-self-->
+        </main>
+    </body>
+<script src="script/script.js"></script>
+</html>
